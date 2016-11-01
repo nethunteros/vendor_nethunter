@@ -1,0 +1,4 @@
+/system/xbin/busybox                u:object_r:busybox_nh_exec:s0
+/system/xbin/hid-keyboard           u:object_r:hidkeyboard_nh_exec:s0
+
+/data/local/nhsystem(/.*)?          u:object_r:nethunter_file:s0
