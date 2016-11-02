@@ -1,14 +1,5 @@
 PRODUCT_BRAND ?= cyanogenmod
 
-ifneq ($(TARGET_SCREEN_WIDTH) $(TARGET_SCREEN_HEIGHT),$(space))
-# determine the smaller dimension
-TARGET_BOOTANIMATION_SIZE := $(shell \
-  if [ "$(TARGET_SCREEN_WIDTH)" -lt "$(TARGET_SCREEN_HEIGHT)" ]; then \
-    echo $(TARGET_SCREEN_WIDTH); \
-  else \
-    echo $(TARGET_SCREEN_HEIGHT); \
-  fi )
-
 PRODUCT_BOOTANIMATION := vendor/nethunter/prebuilt/common/bootanimation/bootanimation.zip
 
 ifdef CM_NIGHTLY
