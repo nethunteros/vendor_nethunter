@@ -1,4 +1,0 @@
-type nethunter_file, file_type;
-
-type busybox_nh_exec, exec_type, file_type;
-type hidkeyboard_exec, exec_type, file_type;
