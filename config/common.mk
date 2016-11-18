@@ -154,13 +154,9 @@ PRODUCT_PACKAGES += \
     libemoji \
     LiveWallpapersPicker \
     PhotoTable \
-    Terminal
 
-# Nethunter packages
+# Fdroid
 PRODUCT_PACKAGES += \
-	Nethunter \
-	Terminal \
- 	androidVNC \
 	F-Droid
 
 # Include librsjni explicitly to workaround GMS issue
