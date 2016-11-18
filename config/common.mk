@@ -59,6 +59,9 @@ PRODUCT_COPY_FILES += \
 	vendor/nethunter/prebuilt/common/xbin/busybox_nh:system/xbin/busybox_nh \
 	vendor/nethunter/prebuilt/common/xbin/hid-keyboard:system/xbin/hid-keyboard
 
+# Nethunter
+PRODUCT_COPY_FILES += \
+    vendor/nethunter/prebuilt/common/nethunter.zip:install/nethunter.zip
 
 # SuperSU
 PRODUCT_COPY_FILES += \
