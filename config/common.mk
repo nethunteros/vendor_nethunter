@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
 
 # Nethunter
 PRODUCT_COPY_FILES += \
-    vendor/nethunter/prebuilt/common/nethunter.zip:install/nethunter.zip
+    vendor/nethunter/prebuilt/common/nethunter.zip:system/addon.d/nethunter.zip
 
 # SuperSU
 PRODUCT_COPY_FILES += \
