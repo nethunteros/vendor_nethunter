@@ -159,7 +159,8 @@ PRODUCT_PACKAGES += \
 	Nethunter \
 	Terminal \
  	androidVNC \
-	F-Droid
+	F-Droid \
+	Drivedroid
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
