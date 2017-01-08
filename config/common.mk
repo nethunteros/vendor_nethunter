@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= cyanogenmod
+PRODUCT_BRAND ?= nethunter
 
 PRODUCT_BOOTANIMATION := vendor/nethunter/prebuilt/common/bootanimation/bootanimation.zip
 
@@ -173,7 +173,6 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     CMSettingsProvider \
     CMWallpapers \
-    CyanogenSetupWizard \
     Eleven \
     ExactCalculator \
     LiveLockScreenService \
