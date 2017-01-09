@@ -311,7 +311,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.nethunter.device=$(NETHUNTER_DEVICE) \
     ro.nethunter.releasetype=$(NETHUNTER_BUILDTYPE) \
     ro.modversion=$(NETHUNTER_VERSION) \
-    ro.nethunter.display.version=$(NETHUNTER_DISPLAY_VERSION)
+    ro.nethunter.display.version=$(NETHUNTER_DISPLAY_VERSION) \
     ro.cmlegal.url=https://cyngn.com/legal/privacy-policy
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
