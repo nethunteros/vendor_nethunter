@@ -1,0 +1,6 @@
+on post-fs-data
+	symlink /data/data/com.offsec.nethunter/files/scripts/bootkali /system/xbin/bootkali
+	symlink /data/data/com.offsec.nethunter/files/scripts/bootkali_env /system/xbin/bootkali_env
+	symlink /data/data/com.offsec.nethunter/files/scripts/bootkali_init /system/xbin/bootkal_init
+	symlink /data/data/com.offsec.nethunter/files/scripts/bootkali_bash /system/xbin/bootkali_bash
+	symlink /data/data/com.offsec.nethunter/files/scripts/bootkali_login /system/xbin/bootkali_login
