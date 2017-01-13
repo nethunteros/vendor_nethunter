@@ -49,6 +49,14 @@ PRODUCT_COPY_FILES += \
     vendor/nethunter/prebuilt/common/bin/50-cm.sh:system/addon.d/50-cm.sh \
     vendor/nethunter/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 
+# Copy bootkali
+PRODUCT_COPY_FILES += \
+	vendor/nethunter/prebuilt/common/xbin/bootkali:system/xbin/bootkali \
+	vendor/nethunter/prebuilt/common/xbin/bootkali_bash:system/xbin/bootkali_bash \
+	vendor/nethunter/prebuilt/common/xbin/bootkali_env:system/xbin/bootkali_env \
+	vendor/nethunter/prebuilt/common/xbin/bootkali_init:system/xbin/bootkali_init \
+	vendor/nethunter/prebuilt/common/xbin/bootkali_login:system/xbin/bootkali_login
+
 # Copy prebuilt binaries
 PRODUCT_COPY_FILES += \
 	vendor/nethunter/prebuilt/common/xbin/busybox_nh:system/xbin/busybox_nh \
@@ -284,7 +292,7 @@ PRODUCT_VERSION_MAINTENANCE := 0
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_VERSION_TAGS=release-keys USER=android-build BUILD_UTC_DATE=$(shell date +"%s")
 
 NETHUNTER_BUILD_DATE := $(shell LC_ALL=C date +%Y-%m-%d_%H%M)
-NETHUNTER_BRANCH=nougat
+NETHUNTER_BRANCH=cm-14.1
 
 ifneq ($(NETHUNTER_BUILD),)
     # NETHUNTER_BUILD=<goo version int>/<build string>
