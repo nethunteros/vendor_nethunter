@@ -1,7 +1,1 @@
-#!/system/bin/sh
-
-######### IMPORT BOOTKALI ENVIRONMENT #########
-SCRIPT_PATH=$(readlink -f $0)
-. ${SCRIPT_PATH%/*}/bootkali_env
-
-$busybox chroot $mnt /bin/login -f root
+/data/data/com.offsec.nethunter/files/scripts/bootkali_login
