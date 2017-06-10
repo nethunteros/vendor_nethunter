@@ -149,6 +149,7 @@ PRODUCT_PACKAGES += \
 	Terminal \
  	androidVNC \
 	F-Droid \
+	FDroidPrivilegedExtension \
 	Drivedroid
 
 # Include explicitly to work around GMS issues
