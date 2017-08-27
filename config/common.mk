@@ -48,10 +48,9 @@ PRODUCT_COPY_FILES += \
 	vendor/nethunter/prebuilt/common/xbin/busybox_nh:system/xbin/busybox_nh \
 	vendor/nethunter/prebuilt/common/xbin/hid-keyboard:system/xbin/hid-keyboard
 
-# SuperSU
+# Magisk
 PRODUCT_COPY_FILES += \
-    vendor/nethunter/prebuilt/common/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
-    vendor/nethunter/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
+    vendor/nethunter/prebuilt/common/Magisk-v13.3.zip:system/addon.d/Magisk-v13.3.zip
 
 # Copy wireless firmware files
 PRODUCT_COPY_FILES += \
