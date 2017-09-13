@@ -350,33 +350,33 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # ------------------ Nethunter Files & Packages --------------- #
 PRODUCT_COPY_FILES += \
-	vendor/nethunter/prebuilt/common/xbin/busybox_nh:system/xbin/busybox_nh \
-	vendor/nethunter/prebuilt/common/xbin/hid-keyboard:system/xbin/hid-keyboard
+	vendor/cm/prebuilt/common/xbin/busybox_nh:system/xbin/busybox_nh \
+	vendor/cm/prebuilt/common/xbin/hid-keyboard:system/xbin/hid-keyboard
 
 # Copy wireless firmware files
 PRODUCT_COPY_FILES += \
-	vendor/nethunter/prebuilt/common/etc/firmware/ar9170-1.fw:system/etc/firmware/ar9170-1.fw \
-	vendor/nethunter/prebuilt/common/etc/firmware/ar9170-2.fw:system/etc/firmware/ar9170-2.fw \
-	vendor/nethunter/prebuilt/common/etc/firmware/carl9170-1.fw:system/etc/firmware/carl9170-1.fw \
-	vendor/nethunter/prebuilt/common/etc/firmware/htc_7010.fw:system/etc/firmware/htc_7010.fw \
-	vendor/nethunter/prebuilt/common/etc/firmware/htc_9271.fw:system/etc/firmware/htc_9271.fw \
-	vendor/nethunter/prebuilt/common/etc/firmware/rt2561.bin:system/etc/firmware/rt2561.bin \
-	vendor/nethunter/prebuilt/common/etc/firmware/rt2860.bin:system/etc/firmware/rt2860.bin \
-	vendor/nethunter/prebuilt/common/etc/firmware/rt2870.bin:system/etc/firmware/rt2870.bin \
-	vendor/nethunter/prebuilt/common/etc/firmware/rt3070.bin:system/etc/firmware/rt3070.bin \
-	vendor/nethunter/prebuilt/common/etc/firmware/rt73.bin:system/etc/firmware/rt73.bin \
-	vendor/nethunter/prebuilt/common/etc/firmware/rtlwifi/rtl8188efw.bin:system/etc/firmware/rtlwifi/rtl8188efw.bin \
-	vendor/nethunter/prebuilt/common/etc/firmware/rtlwifi/rtl8192cufw.bin:system/etc/firmware/rtlwifi/rtl8192cufw.bin \
-	vendor/nethunter/prebuilt/common/etc/firmware/zd1211/zd1211_ub:system/etc/firmware/zd1211/zd1211_ub \
-	vendor/nethunter/prebuilt/common/etc/firmware/zd1211/zd1211_uph:system/etc/firmware/zd1211/zd1211_uph \
-	vendor/nethunter/prebuilt/common/etc/firmware/zd1211/zd1211_uphm:system/etc/firmware/zd1211/zd1211_uphm \
-	vendor/nethunter/prebuilt/common/etc/firmware/zd1211/zd1211_uphr:system/etc/firmware/zd1211/zd1211_uphr \
-	vendor/nethunter/prebuilt/common/etc/firmware/zd1211/zd1211_ur:system/etc/firmware/zd1211/zd1211_ur \
-	vendor/nethunter/prebuilt/common/etc/firmware/zd1211/zd1211b_ub:system/etc/firmware/zd1211/zd1211b_ub \
-	vendor/nethunter/prebuilt/common/etc/firmware/zd1211/zd1211b_uph:system/etc/firmware/zd1211/zd1211b_uph \
-	vendor/nethunter/prebuilt/common/etc/firmware/zd1211/zd1211b_uphm:system/etc/firmware/zd1211/zd1211b_uphm \
-	vendor/nethunter/prebuilt/common/etc/firmware/zd1211/zd1211b_uphr:system/etc/firmware/zd1211/zd1211b_uphr \
-	vendor/nethunter/prebuilt/common/etc/firmware/zd1211/zd1211b_ur:system/etc/firmware/zd1211/zd1211b_ur
+	vendor/cm/prebuilt/common/etc/firmware/ar9170-1.fw:system/etc/firmware/ar9170-1.fw \
+	vendor/cm/prebuilt/common/etc/firmware/ar9170-2.fw:system/etc/firmware/ar9170-2.fw \
+	vendor/cm/prebuilt/common/etc/firmware/carl9170-1.fw:system/etc/firmware/carl9170-1.fw \
+	vendor/cm/prebuilt/common/etc/firmware/htc_7010.fw:system/etc/firmware/htc_7010.fw \
+	vendor/cm/prebuilt/common/etc/firmware/htc_9271.fw:system/etc/firmware/htc_9271.fw \
+	vendor/cm/prebuilt/common/etc/firmware/rt2561.bin:system/etc/firmware/rt2561.bin \
+	vendor/cm/prebuilt/common/etc/firmware/rt2860.bin:system/etc/firmware/rt2860.bin \
+	vendor/cm/prebuilt/common/etc/firmware/rt2870.bin:system/etc/firmware/rt2870.bin \
+	vendor/cm/prebuilt/common/etc/firmware/rt3070.bin:system/etc/firmware/rt3070.bin \
+	vendor/cm/prebuilt/common/etc/firmware/rt73.bin:system/etc/firmware/rt73.bin \
+	vendor/cm/prebuilt/common/etc/firmware/rtlwifi/rtl8188efw.bin:system/etc/firmware/rtlwifi/rtl8188efw.bin \
+	vendor/cm/prebuilt/common/etc/firmware/rtlwifi/rtl8192cufw.bin:system/etc/firmware/rtlwifi/rtl8192cufw.bin \
+	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211_ub:system/etc/firmware/zd1211/zd1211_ub \
+	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211_uph:system/etc/firmware/zd1211/zd1211_uph \
+	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211_uphm:system/etc/firmware/zd1211/zd1211_uphm \
+	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211_uphr:system/etc/firmware/zd1211/zd1211_uphr \
+	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211_ur:system/etc/firmware/zd1211/zd1211_ur \
+	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211b_ub:system/etc/firmware/zd1211/zd1211b_ub \
+	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211b_uph:system/etc/firmware/zd1211/zd1211b_uph \
+	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211b_uphm:system/etc/firmware/zd1211/zd1211b_uphm \
+	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211b_uphr:system/etc/firmware/zd1211/zd1211b_uphr \
+	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211b_ur:system/etc/firmware/zd1211/zd1211b_ur
 
 # Nethunter packages
 PRODUCT_PACKAGES += \
