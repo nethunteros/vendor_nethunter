@@ -376,7 +376,15 @@ PRODUCT_COPY_FILES += \
 	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211b_uph:system/etc/firmware/zd1211/zd1211b_uph \
 	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211b_uphm:system/etc/firmware/zd1211/zd1211b_uphm \
 	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211b_uphr:system/etc/firmware/zd1211/zd1211b_uphr \
-	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211b_ur:system/etc/firmware/zd1211/zd1211b_ur
+	vendor/cm/prebuilt/common/etc/firmware/zd1211/zd1211b_ur:system/etc/firmware/zd1211/zd1211b_ur \
+	vendor/cm/prebuilt/common/etc/firmware/rt2561s.bin:system/etc/firmware/rt2561s.bin \
+	vendor/cm/prebuilt/common/etc/firmware/rt2661.bin:system/etc/firmware/rt2661.bin \
+	vendor/cm/prebuilt/common/etc/firmware/rt3071.bin:system/etc/firmware/rt3071.bin \
+	vendor/cm/prebuilt/common/etc/firmware/rt3290.bin:system/etc/firmware/rt3290.bin \
+	vendor/cm/prebuilt/common/etc/firmware/bluetooth_rxtx.bin:system/etc/firmware/bluetooth_rxtx.bin \
+	vendor/cm/prebuilt/common/etc/firmware/hackrf_jawbreaker_usb.bin:system/etc/firmware/hackrf_jawbreaker_usb.bin \
+	vendor/cm/prebuilt/common/etc/firmware/hackrf_one_usb.bin:system/etc/firmware/hackrf_one_usb.bin \
+	vendor/cm/prebuilt/common/etc/firmware/rtlwifi/rtl8192cufw.bin:system/etc/firmware/rtlwifi/rtl8192cufw.bin
 
 # Nethunter packages
 PRODUCT_PACKAGES += \
